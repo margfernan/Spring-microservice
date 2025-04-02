@@ -1,0 +1,20 @@
+meta {
+  name: Create Student
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8081/student
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "John Smith2",
+    "age": 25,
+    "gender": "male",
+    "schoolId": 1
+  }
+}
