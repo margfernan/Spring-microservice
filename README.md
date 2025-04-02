@@ -39,3 +39,6 @@ Rest Template is used to create applications that consume RESTful Web Services. 
 * cloud-gateway (api-gateway)
 * service-registry (Eureka)
 
+# Pending:
+* Add Fault tolerance.
+* Add cache
