@@ -39,6 +39,15 @@ Rest Template is used to create applications that consume RESTful Web Services. 
 * cloud-gateway (api-gateway)
 * service-registry (Eureka)
 
+# Steps to start up
+1) Create database student in mondobb. Collection: students
+2) Create database in Mysql schoolservice
+   Example: _create schema schoolservice;_
+3) Start Eureka (service-registry component)
+4) Start Cloud-gateway component
+5) Start student-service module
+
+
 # Pending:
 * Add Fault tolerance.
 * Add cache
